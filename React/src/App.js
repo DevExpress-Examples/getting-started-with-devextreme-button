@@ -12,17 +12,16 @@ function App() {
   return (
     <div className="App">
       <div id="app-container">
-      <Button
-        text="Show the message"
-        type="success"
-        stylingMode="outlined"
-        width={200}
-        height={40}
-        icon="comment"
-        hint="Click to show the message"
-        onClick={onClick}
-      />
-
+        <Button
+          text="Show the message"
+          type="success"
+          stylingMode="outlined"
+          width={200}
+          height={40}
+          icon="comment"
+          hint="Click to show the message"
+          onClick={onClick}
+        />
       </div>
     </div>
   );
