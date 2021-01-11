@@ -1,13 +1,10 @@
 <template>
   <DxButton
-    text="Show the message"
-    type="success"
+    text="Click me!"
+    @click="showMessage()"
     stylingMode="outlined"
-    :width="200"
-    :height="40"
+    type="success"
     icon="comment"
-    hint="Click to show the message"
-    @click="onClick()"
   />
 </template>
 
@@ -21,7 +18,7 @@ export default {
     DxButton
   },
   methods: {
-    onClick() {
+    showMessage() {
       notify("The button was clicked");
     }
   }

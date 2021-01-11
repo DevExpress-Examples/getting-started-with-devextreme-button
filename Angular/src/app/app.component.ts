@@ -7,7 +7,7 @@ import notify from 'devextreme/ui/notify';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  click = () => {
+  showMessage = () => {
     notify("The button was clicked");
   }
 }
