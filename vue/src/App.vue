@@ -2,7 +2,7 @@
   <DxButton
     text="Click me!"
     @click="showMessage()"
-    stylingMode="outlined"
+    styling-mode="outlined"
     type="success"
     icon="comment"
   />
