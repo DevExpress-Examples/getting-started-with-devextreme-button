@@ -1,4 +1,6 @@
-# angular: getting-started-with-button
+# Getting Started with DevExtreme Angular Button
+
+This repository stores Angular source code for the [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/) tutorial.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
 
