@@ -3,7 +3,27 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T953700)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Getting Started with DevExtreme Button
+# DevExtreme Button - Getting Started 
 
-This repository stores the source code for the [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/) tutorial.
+This repository stores the code examples of the Button component for the [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/) tutorial. This tutorial shows how to add a Button to a page, apply styling, and configure its core features.
+
+<div align="center"><img src="./button.png" /></div>
+
+## Files to Review
+
+- **Angular**
+    - [app.component.html](Angular/src/app/app.component.html)
+    - [app.component.ts](Angular/src/app/app.component.ts)
+- **jQuery**
+    - [index.js](jQuery/index.js)
+- **React**
+    - [App.js](React/src/App.js)
+- **Vue**
+    - [App.vue](vue/src/App.vue)
+
+## Documentation
+
+- [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/)
+
+- [Button - API Reference](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxButton/)
  

@@ -1,6 +1,6 @@
-# Getting Started with DevExtreme React Button
+# DevExtreme React Button - Getting Started 
 
-This repository stores React source code for the [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/) tutorial.
+This repository stores the code examples of the React Button component for the [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/) tutorial. This tutorial shows how to add a Button to a page, apply styling, and configure its core features.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
