@@ -8,7 +8,7 @@
 
 This repository stores the code examples of the Button component for the [Getting Started with Button](https://js.devexpress.com/Documentation/Guide/UI_Components/Button/Getting_Started_with_Button/) tutorial. This tutorial shows how to add a Button to a page, apply styling, and configure its core features.
 
-<div align="center"><img src="./button.png" /></div>
+<div align="center"><img src="images/button.png" /></div>
 
 ## Files to Review
 
@@ -20,7 +20,7 @@ This repository stores the code examples of the Button component for the [Gettin
 - **React**
     - [App.js](React/src/App.js)
 - **Vue**
-    - [App.vue](vue/src/App.vue)
+    - [App.vue](Vue/src/App.vue)
 
 ## Documentation
 
