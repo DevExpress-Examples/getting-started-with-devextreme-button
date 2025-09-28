@@ -16,7 +16,7 @@ This repository stores the code examples of the Button component for the [Gettin
     - [app.component.html](Angular/src/app/app.component.html)
     - [app.component.ts](Angular/src/app/app.component.ts)
 - **jQuery**
-    - [index.js](jQuery/index.js)
+    - [index.js](jQuery/src/index.js)
 - **React**
     - [App.tsx](React/src/App.tsx)
 - **Vue**
