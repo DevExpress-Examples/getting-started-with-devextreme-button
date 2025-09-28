@@ -1,10 +1,11 @@
 $(() => {
-  let count = 0;
-  $('#btn').dxButton({
-    text: `Click count: ${count}`,
+  $('#button').dxButton({
+    text: 'Click me!',
+    type: 'success',
+    stylingMode: 'outlined',
+    icon: 'comment',
     onClick(e) {
-      count += 1;
-      e.component.option('text', `Click count: ${count}`);
+      DevExpress.ui.notify(`The button ${e.component.option('text')} was clicked`);
     },
   });
 });

@@ -1,4 +1,16 @@
-# Vue 3 + TypeScript + Vite + DevExtreme
+# Getting Started with DevExtreme Button - Vue 3
+
+This example demonstrates how to integrate DevExtreme Button component into a Vue 3 TypeScript application using Vite and Vue Router.
+
+## Features
+
+- DevExtreme Button with click notification
+- Vue 3 Composition API with TypeScript
+- Event parameter handling with component options access  
+- Vue Router for navigation structure
+- ESLint configuration with auto-fixing
+- Vite for fast development and building
+- Production build optimization
 
 For more information about this example check the [Readme](../README.md).
 

@@ -1,4 +1,14 @@
-# jQuery DevExtreme Example
+# Getting Started with DevExtreme Button - jQuery
+
+This example demonstrates how to integrate DevExtreme Button component into a jQuery application.
+
+## Features
+
+- DevExtreme Button with click notification
+- jQuery DOM manipulation
+- Event parameter handling with component options access
+- ESLint, Stylelint, and Prettier configuration
+- Lightweight development server with Browsersync
 
 For more information about this example check the [Readme](../README.md).
 

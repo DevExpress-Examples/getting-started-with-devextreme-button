@@ -1,4 +1,14 @@
-# Angular DevExtreme Example
+# Getting Started with DevExtreme Button - Angular
+
+This example demonstrates how to integrate DevExtreme Button component into an Angular application.
+
+## Features
+
+- DevExtreme Button with click notification
+- TypeScript support
+- Angular component architecture
+- ESLint, Stylelint, and Prettier configuration
+- Production build optimization
 
 For more information about this example check the [Readme](../README.md).
 

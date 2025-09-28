@@ -1,16 +1,25 @@
-import { useCallback, useState } from 'react';
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.css';
 import './App.css';
-import 'devextreme/dist/css/dx.material.blue.light.compact.css';
-import Button from 'devextreme-react/button';
+
+import { Button } from 'devextreme-react/button';
+import type { ButtonTypes } from 'devextreme-react/button';
+import notify from 'devextreme/ui/notify';
+
+function showMessage(e: ButtonTypes.ClickEvent): void {
+  notify(`The button ${e.component.option('text')} was clicked`);
+}
 
 function App(): JSX.Element {
-  var [count, setCount] = useState<number>(0);
-  const clickHandler = useCallback(() => {
-    setCount((prev) => prev + 1);
-  }, [setCount]);
   return (
-    <div className="main">
-      <Button text={`Click count: ${count}`} onClick={clickHandler} />
+    <div className="app">
+      <Button
+        text="Click me!"
+        onClick={showMessage}
+        stylingMode="outlined"
+        type="success"
+        icon="comment"
+      />
     </div>
   );
 }

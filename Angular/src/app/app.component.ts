@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
+import notify from 'devextreme/ui/notify';
+import { DxButtonTypes } from 'devextreme-angular/ui/button';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +8,7 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
-
-  counter = 0;
-
-  buttonText = 'Click count: 0';
-
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
-  }
+  showMessage = (e: DxButtonTypes.ClickEvent): void => {
+    notify(`The button ${e.component.option('text')} was clicked`);
+  };
 }

@@ -18,9 +18,10 @@ This repository stores the code examples of the Button component for the [Gettin
 - **jQuery**
     - [index.js](jQuery/index.js)
 - **React**
-    - [App.js](React/src/App.js)
+    - [App.tsx](React/src/App.tsx)
 - **Vue**
     - [App.vue](Vue/src/App.vue)
+    - [ButtonContent.vue](Vue/src/components/ButtonContent.vue)
 
 ## Documentation
 

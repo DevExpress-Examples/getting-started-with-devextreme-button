@@ -1,3 +1,8 @@
-<div class="default-style">
-  <dx-button [text]="buttonText" (onClick)="onClick($event)"></dx-button>
-</div>
+<dx-button
+  text="Click me!"
+  (onClick)="showMessage($event)"
+  stylingMode="outlined"
+  type="success"
+  icon="comment"
+>
+</dx-button>

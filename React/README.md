@@ -1,4 +1,14 @@
-# React + TypeScript + Vite + DevExtreme
+# Getting Started with DevExtreme Button - React
+
+This example demonstrates how to integrate DevExtreme Button component into a React TypeScript application using Vite.
+
+## Features
+
+- DevExtreme Button with click notification
+- TypeScript support
+- Modern React with function components
+- ESLint and Stylelint configuration
+- Vite for fast development and building
 
 For more information about this example check the [Readme](../README.md).
 
