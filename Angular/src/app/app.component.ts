@@ -3,9 +3,10 @@ import notify from 'devextreme/ui/notify';
 import { DxButtonTypes } from 'devextreme-angular/ui/button';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent {
   showMessage = (e: DxButtonTypes.ClickEvent): void => {
